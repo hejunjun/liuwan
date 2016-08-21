@@ -1,0 +1,164 @@
+.clear:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.topper{
+	border-bottom: 3px #176fbb solid;
+	height: 110px;
+}
+.topper .ull{
+	float: right;
+	margin-right: 200px;
+	margin-top: 14px;
+}
+.topper .phone{
+	background: url(../img/photo.png) -195px -8px ;
+	width: 17px;
+	height: 21px;
+	float: left;
+	margin-right: -10px;
+}
+.topper li{
+	list-style: none;
+	padding-left: 15px;
+	float: left;
+}
+.topper a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: microsoft yahei;
+	color: #3c3c3c;
+}
+.topper .trunk{
+	background: url(../img/photo.png) -199px -41px;
+	width: 26px;
+	height: 26px;
+	float: left;
+	margin-left: 20px;
+	margin-top: -5px;
+}
+.boot{
+	margin-left: -10px;
+}
+.topper .box{
+	width: 186px;
+	height: 28px;
+	float: left;
+	border: 1px #3c3c3c solid;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px; 
+	margin-left: 15px;
+	margin-top: -8px;
+}
+.topper .bt{
+	height: 28px;
+	width: 155px;
+	border: 0px;
+	border-right:1px #3c3c3c solid;
+	background-color: white;
+	float: left;
+
+}
+.topper .seach{
+	background: url(../img/photo.png) -25px -129px;
+	width: 16px;
+	height: 20px;
+	float: left;
+	margin-left: 8px;
+    margin-top: 5px;
+}
+.logo{
+	background: url(../img/photo.png) -23px -28px;
+	width: 132px;
+	height: 92px;
+	float: left;
+	margin-left: 190px;
+	margin-top: 10px;
+}
+.word{
+	/*margin-top: 10px;*/
+	float: right;
+	margin-right: 300px;
+}
+.word li{
+	list-style: none;
+	padding-left: 43px;
+	
+}
+.word a{
+	text-decoration: none;
+	font-size: 18px;
+	font-family: microsoft yahei;
+	color: #3c3c3c;
+}
+.home{
+	background: url(../img/photo.png) -250px -262px;
+	width: 23px;
+	height: 23px;
+	float: left;
+}
+.footer{
+	font-family: microsoft yahei;
+	color: white;
+	height: 236px;
+	width: 100%;
+	background-color: #023c4d;
+}
+.fo_top{
+	border-bottom: 3px white solid;
+}
+.fo_top ul{
+	float: left;
+	margin-right: 81px;
+}
+.fo_top div{
+	margin: 10px 99px 22px 293px;
+}
+.fo_top a{
+	font-size: 14px;
+	
+	text-decoration: none;
+	color: white;
+}
+.fo_top li{
+	list-style: none;
+	margin-top: 11px;
+}
+.fo_top .about a{
+	font-size: 18px;
+
+}
+.fo_top .about1 a{
+	font-weight: bold;
+	font-size: 28px;
+}
+.fo_top .icon00,.fo_top .icon01{
+	background: url(../img/login.png) -1269px -585px;
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin-top: 21px;
+}
+.fo_top .icon01{
+	background-position: -1312px -585px;
+	margin-left: 9px;
+}
+.fo_top .zizun{
+	
+	color: #023c4d;
+	font-size: 14px;
+	width: 130px;
+	height: 27px;
+	border-radius: 6px;
+	background-color: white;
+	display: block;
+	text-align: center;
+	line-height: 27px;
+}
+.fo_bot p{
+	font-size: 14px;
+	color: #d0d0d0;
+	text-align: center;
+	margin-top: 22px;
+}

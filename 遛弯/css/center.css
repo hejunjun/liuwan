@@ -1,0 +1,196 @@
+*{
+	margin: 0;padding: 0
+}
+.clear:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.center .page{
+	margin-left: 60px;
+	font-family: microsoft yahei;
+	font-size: 14px;
+	color: #3c3c3c;
+	margin-top: 10px;
+
+
+}
+.center .draw{
+	background: url(../img/login.png) 0px -33px;
+	width: 1367px;
+	height: 348px;
+	float: left;
+}
+.center .gift{
+	background: url(../img/photo.png) -338px -74px;
+	width: 33px;
+	height: 39px;
+	float: left;
+	margin-top: 49px;
+	margin-left: 597px;
+}
+.center .banshouli{
+	font-size: 30px;
+	font-family: microsoft yahei;
+	color: #cc0000;
+	float: left;
+	margin-top: 49px;
+	margin-left: 20px;
+}
+.draw1{
+	width: 1100px;
+	position: relative;
+	left: 0;
+	top: 0;
+	margin-top: 454px;
+	margin-left: 180px;
+}
+.color{
+	width: 315px;
+	height: 243px;
+	position: relative;
+	left: 0;
+	top: 0; 
+	margin:15px;
+	float: left;
+}
+.color .back{
+	background: url(../img/photo.png) -575px -11px;
+	width: 313px;
+	height: 243px;
+	float: left;
+	position: absolute;
+}
+.color .back1{
+	background: url(../img/photo.png) -583px -295px;
+	width: 313px;
+	height: 243px;
+	float: left;
+	position: absolute;
+	margin-top: 10px;
+}
+.color .luc{
+	width: 313px;
+	height: 243px;
+	float: left;
+	background-color: #000;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	position: absolute;
+	display: none;
+
+}
+.color .word{
+	width: 313px;
+	height: 243px;
+	position: absolute;
+	left: 0;
+	top: 13px;
+	display: none;
+}
+.heart i{
+background: url(../img/photo.png) -123px -172px;
+width: 17px;
+height: 17px;
+float: left;	
+}
+.heart p{
+	font-family: microsoft yahei;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+}
+.heart{
+	float: left;
+	margin-left: 96px;
+	margin-top: 30px;
+}
+.dis{
+	float: left;
+	margin-left: 19px;
+	margin-top: 30px;
+}
+.dis i{
+background: url(../img/photo.png) -62px -201px;
+width: 15px;
+height: 15px;
+float: left;	
+}
+.dis p{
+	font-family: microsoft yahei;
+	font-size: 12px;
+	color: #ffffff;
+	float: left;
+}
+.text{
+	font-family: microsoft yahei;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	margin-top: 63px;
+	margin-left: 58px;
+}
+.text1{
+	font-family: microsoft yahei;
+	font-size: 14px;
+	color: white;
+	margin-top: 22px;
+	position: absolute;
+	margin-top: 100px;
+	width: 200px;
+	margin-left: 55px;
+}
+.map{
+	background: url(../img/photo.png) -33px -393px;
+	width: 281px;
+	height: 34px;
+	float: left;
+	margin-top: 110px;
+}
+.name{
+	font-size: 16px;
+	font-family: microsoft yahei;
+	color: white;
+	font-weight: bold;
+	width: 313px;
+	height: 31px;
+	background-color: #000;
+	position: absolute;
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+	margin-top: 208px;
+	text-align: center;
+	padding-top: 5px;
+
+}
+.color:hover .luc,.color:hover .word{
+	display: inline;
+}
+.color:hover .name{
+	display: none;
+}
+.center ul{
+	font-family: microsoft yahei;
+	font-size: 12px;
+	color: #6e6e6e;
+	width: 308px;
+	margin: 26px 535px;
+}
+.center li{
+	text-align: center;
+	width: 32px;
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	list-style: none;
+}
+.center .frist{
+	width: 42px;
+	height: 17px;
+	line-height: 17px;
+}
+.centr li:hover{
+	background-color: #6e6e6e;
+	color: white;
+}
